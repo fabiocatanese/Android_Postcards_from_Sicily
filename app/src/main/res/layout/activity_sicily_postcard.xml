@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<HorizontalScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/horizontal_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sicily_postcard"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context="com.example.android.sicily.Sicily_postcard">
+
+    <!--Cover-->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text=' "Postcards from Sicily" '
+        android:background="#E65100"
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="italic|bold"
+        android:textColor="#FFF3E0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24sp"
+        />
+
+    <ImageView
+        android:src="@drawable/a_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:background="#E65100"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:text="...scroll to the right to start your journey."
+        android:background="#E65100"
+        android:textColor="#FFF3E0"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="italic|bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16sp" />
+
+
+</LinearLayout>
+
+    <!--First Section-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#E65100">
+
+        <TextView
+            android:text="Enjoy our ancient art or..."
+            android:background="#E65100"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic"
+            android:textColor="#FFF3E0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="24sp"
+            android:padding="24sp"
+            />
+
+        <ImageView
+            android:src="@drawable/b_art"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:padding="10dp"
+            android:background="#E65100"
+           />
+
+
+        <TextView
+            android:text="Greek Temple"
+            android:background="#E65100"
+            android:textColor="#FFF3E0"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic|bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16sp"
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+
+    <!--Second Section-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="...dive into the sea. And if you are hungry..."
+            android:background="#E65100"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic"
+            android:textColor="#FFF3E0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="24sp"
+            android:padding="24sp"
+            />
+
+        <ImageView
+            android:src="@drawable/c_sea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:padding="10dp"
+            android:background="#E65100"
+            />
+
+        <TextView
+            android:text="Mediterranean sea"
+            android:background="#E65100"
+            android:textColor="#FFF3E0"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic|bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16sp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <!--Third Section-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="...our delicious food awaits you!"
+            android:background="#E65100"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic"
+            android:textColor="#FFF3E0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="24sp"
+            android:padding="24sp"
+            />
+
+        <ImageView
+            android:src="@drawable/d_food"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:padding="10dp"
+            android:background="#E65100"
+            />
+        <TextView
+            android:text="Pasticceria"
+            android:background="#E65100"
+            android:textColor="#FFF3E0"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic|bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16sp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+    <!--End Section-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="We are waiting for you in..."
+            android:background="#E65100"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic"
+            android:textColor="#FFF3E0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="24sp"
+            />
+
+        <ImageView
+            android:src="@drawable/e_bye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingRight="20dp"
+            android:background="#E65100" />
+
+        <TextView
+            android:text="...Sicily!"
+            android:background="#E65100"
+            android:textColor="#FFF3E0"
+            android:textSize="28sp"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic|bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textEnd"
+            android:padding="8sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    </HorizontalScrollView>
